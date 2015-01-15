@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Iterativ - Laboration 4 - Projektet</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Princess+Sofia' rel='stylesheet' type='text/css'>
+    </head> 
+    <body>
+        <header id="indexheader">
+            <h1 id="headertext">Lägg till användare</h1>
+        </header>
+        <main>
+            <form id="adduserform">
+                <fieldset>
+                    <input class="adduserinput" type="text" name="firstname" placeholder="Förnamn">
+                    <input class="adduserinput" type="text" name="lastname" placeholder="Efternamn">
+                    <input class="adduserinput" type="number" name="socialsecnumber" placeholder="Personnumer 198001010101"/>
+                    <input class="adduserinput" type="email" name="email" placeholder="E-post">
+                    <input class="adduserinput" type="text" name="pwd" placeholder="Lösenord">
+                    <input class="adduserradio" type="radio" name="authority" placeholder="Administratör" checked>Administratör
+                    <input class="adduserradio" type="radio" name="authority" placeholder="Ledare">Ledare
+                    <input class="adduserradio" type="radio" name="authority" placeholder="Domare">Domare
+                    <select class ="dropdownlist" name="clubs">
+                        <option name="clubs" value="Björkheda Gymnastikklubb">Björkheda Gymnastikklubb</option>
+                        <option name="clubs" value="Malmöflickorna">Malmöflickorna</option>
+                        <option name="clubs" value="Kämpinge Gymnastikförening">Kämpinge Gymnastikförening</option>
+                    </select>
+                    <button id="saveuserbutton" type="submit" value="spara">Spara</button>
+                </fieldset>
+            </form>
+        </main>
+        <script src="js/AddUser.js"></script>
+    </body>
+</html>
