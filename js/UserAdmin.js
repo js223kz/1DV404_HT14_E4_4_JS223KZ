@@ -12,6 +12,7 @@ JOSZEP.UserAdmin = function (){
     
     addUserBtn.addEventListener("click", function(e){
        location.href='adduser.html' 
+       console.log("You´ve pressed add user button");
     });
     
 };

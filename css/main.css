@@ -25,6 +25,7 @@
 #adduserform{
     width: 300px;
     height: auto;
+    float: left;
 }
 .adduserinput{
     width: 250px;
@@ -33,6 +34,18 @@
 .adduserradio{
     margin-top: 10px;
 }
-.dropdownlist{
-    display: none;
+#sidebar{
+    width: 300px;
+    min-height: 600px;
+    border-left: 1px solid #000;
+    float: left;
+    margin-left: 100px;
+}
+#sidebarheadline{
+    text-align: center;
+}
+#userlist{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }

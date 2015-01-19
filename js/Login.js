@@ -5,4 +5,5 @@ JOSZEP.Login = function (OK){
     console.log("Sending logininformation");
     
     var admin = new JOSZEP.UserAdmin();
+    
 };

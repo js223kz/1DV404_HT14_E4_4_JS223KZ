@@ -7,9 +7,7 @@ JOSZEP.StartWindow = JOSZEP.StartWindow || {
         var login = document.getElementById("loginbutton");
         
             login.addEventListener("click", function(e){
-                var he = new JOSZEP.LoginWindow();
-                console.log("hello");
-
+                new JOSZEP.LoginWindow();
             });
         
     }
