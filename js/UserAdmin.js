@@ -3,7 +3,6 @@
 var JOSZEP = JOSZEP || {};
 JOSZEP.UserAdmin = function (){
     
-    console.log("You´re viewing this page as Admin");
     var body = document.querySelector("body");
     var addUserBtn = document.createElement("button");
     addUserBtn.id = "adduserbutton";

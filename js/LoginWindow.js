@@ -27,7 +27,7 @@ JOSZEP.LoginWindow = function (){
     wrapper.appendChild(submitBtn);
     
     submitBtn.addEventListener("click", function(e){
-        var sendLogin = new JOSZEP.Login("ok");
+        var sendLogin = new JOSZEP.Login(userName.value, pwd.value);
     });
     
     
